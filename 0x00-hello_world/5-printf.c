@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* main - a program that print a line using the printf function
+/* main comment
  * Return 0 (Success)
  */
 int main(void)
