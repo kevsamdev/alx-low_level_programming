@@ -4,7 +4,7 @@
 *
 * Return: 0 or 1
 */
-int _isupper(int C) {
+int _isupper(int c) {
 if (C >= 'A' && C <= 'Z')
 {return (1);
 }
