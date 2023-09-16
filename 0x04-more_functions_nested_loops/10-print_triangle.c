@@ -3,24 +3,9 @@
 */
 void print_triangle(int size)
 {
-if (size <= 0)
+int hash, index;
+if (size > 0)
 {
-_putchar('\n');
+for (hash = 1; hash <= size; hash++)
 }
-}
-}
-else
-{
-int i, j;
-for (i = 1; i <= size; i++)
-{
-for (j = i; j < size; j++)
-{
-_putchar(' ');
-}
-for (j = 1; j <= i; j++)
-{
-_putchar('#');
-}
-_putchar('\n');
 }
