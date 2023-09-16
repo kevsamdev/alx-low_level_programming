@@ -4,7 +4,7 @@
 * @c: Variable text
 * Return: Always 0.
 */
-int _isupper(int c) 
+int _isupper(int c)
 {
 if (C >= 'A' && C <= 'Z')
 {
