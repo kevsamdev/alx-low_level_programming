@@ -1,6 +1,8 @@
 #include "main.h"
 /**
-* mul is a function that checks for a digit
+* main - This is a program that multiplies two integers.
+* mul -  function that checks for a digit(0 through 9).
+*
 * @a: a - variable
 * @b: b - variable
 * Return: addition of the multiplicattion
