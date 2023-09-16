@@ -1,28 +1,17 @@
 #include "main.h"
 /**
-* _putchar - Write a character to stdout.
-* @c: The character to write.
+* _isupper -program checks uppercase letters check
+* @c: Variable text
+* Return: Always 0.
 */
-void _putchar(char c)
+int _isupper(int c) 
 {
-}
-int _isupper(int c){
-if (c >= 'A' && c <= 'Z') 
+if (C >= 'A' && C <= 'Z')
 {
 return (1);
-} else 
+}
+else
 {
 return (0);
 }
-}
-int main(void) 
-{
-char testChar = 'A'; /
-if (_isupper(testChar)) 
-{
-_putchar('1'); 
-} else 
-{
-_putchar('0'); 
-return (0);
 }
