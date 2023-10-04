@@ -4,7 +4,7 @@ void _puts(char *str)
 /**
  * main - Entry point
  *
- * _puts - Function for pragram
+ * @puts - Function for pragram
  *
  * Return: Always 0 (Success)
  */
