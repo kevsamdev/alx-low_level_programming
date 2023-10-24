@@ -13,7 +13,9 @@ size_t print_listint(const listint_t *h)
 	while (h)
 	{
 		nodes++;
-		printf("%d\n", h->n;
+		char buffer[12];
+		int n = snprintf(buffer, sizeof(buffer), "%d\n", h->n;
+write(STDOUT_FILENO, buffer, n);
 		h = h->next;
 	}
 
